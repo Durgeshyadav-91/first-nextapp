@@ -13,8 +13,8 @@ export default function Home() {
     <div>
         <h1 className="items-center">Hello home Page</h1>
         <Link href={"/about"}>GO To About Page</Link><br/>
-        <Link href={"/login"}>GO To Login page</Link><br/><br/>
-
+        <Link href={"/login"}>GO To Login page</Link><br/>
+        <Link href={"/login/teacherlogin"}>Go to Teacher Login page</Link><br/><br/>
         <button onClick={() => navigate("/about")}>Click to Move About Page</button><br/>
         <button onClick={() => navigate("/login")}>Click to Move Login Page</button>
     </div>
